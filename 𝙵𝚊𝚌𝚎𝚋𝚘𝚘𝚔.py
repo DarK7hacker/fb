@@ -13,8 +13,6 @@ H = "\033[1;93m"
 K = "\033[1;94m"
 L = "\033[1;95m"
 
-hunter = pyfiglet.figlet_format("HAMA GYAN")
-
 
 def Top(s):
 	for ASU in s + '\n':
