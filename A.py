@@ -125,7 +125,7 @@ def menu():
     print '\x1b[1;97m[1]\x1b[1;97m  START'
     print '\n\x1b[1;97m[0]  Exit            '
     print '\x1b[1;97m--------------------------------------------------\n'
-    
+    action()
 
 def action():
     global cpb
