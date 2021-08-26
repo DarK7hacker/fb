@@ -125,7 +125,7 @@ def menu():
     print '\x1b[1;97m[1]\x1b[1;97m  START'
     print '\n\x1b[1;97m[0]  Exit            '
     print '\x1b[1;97m--------------------------------------------------\n'
-    action()
+    
 
 def action():
     global cpb
@@ -136,9 +136,9 @@ def action():
         action()
     elif peak == '1':
         os.system('clear')
-os.system('clear')
-            print ('DARK')
-            print '\x1b[1;97m770 >< 771 >< 750 >< 751-' + '\n'
+        print logo
+        print '\x1b[1;97mArea Codes With Network' + '\n'
+        print '\x1b[1;97m770-771-772-773-774-750-751-752-753-754-780-781-782-783-784' + '\n'
         try:
             c = raw_input('\x1b[1;97mChoose Area Code : ')
             k = '+964'
@@ -173,7 +173,7 @@ os.system('clear')
     def main(arg):
         user = arg
         try:
-            os.mkdir('DARK')
+            os.mkdir('EMAD_ZONE')
         except OSError:
             pass
 
