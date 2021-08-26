@@ -137,7 +137,7 @@ def action():
     elif peak == '1':
         os.system('clear')
 os.system('clear')
-            print 50 * '~'
+            print ('DARK')
             print '\x1b[1;97m770 >< 771 >< 750 >< 751-' + '\n'
         try:
             c = raw_input('\x1b[1;97mChoose Area Code : ')
